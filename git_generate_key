@@ -1,0 +1,4 @@
+ssh-keygen -o
+cat ~/.ssh/id_rsa.pub
+eval "$(ssh-agent -s)"
+ssh-add id_rsa
